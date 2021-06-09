@@ -29,6 +29,15 @@
     p span {
         margin:4px 0 !important;
     }
+    p.large {
+        font-size: 1.5em !important;
+    }
+    p {
+        font-size: 1.15em !important;
+    }
+    .small {
+        font-size: 12px !important;
+    }
     .container {
         padding-top: 30px !important;
     }

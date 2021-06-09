@@ -93,6 +93,16 @@ header {
     margin-top: 20px;
 }
 
+.dropdown:hover {
+    background-color:#000000;
+    color:#feeb18;
+}
+
+.dropdown:hover:after {
+    background-color:#feeb18;
+    color:#000000;
+}
+
 .dropdown:after {
     position: absolute;
     top: 50%;
@@ -131,6 +141,15 @@ header {
     background-color:#feeb18;
     font-weight: 900;
     margin-bottom: 4px;
+    transition:0.3s;
+}
+
+.dropdown ul li:hover {
+    background-color : #000000;
+}
+
+.dropdown ul li:hover a {
+    color:#feeb18;
 }
 
 
