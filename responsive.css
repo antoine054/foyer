@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1300px), screen and (max-height:1150px) {
     html {
         font-size: 0.7em !important;
     }
