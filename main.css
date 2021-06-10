@@ -206,6 +206,11 @@ p span {
     color:#feeb18;
 }
 
+strong.smaller {
+    color:white;
+    font-size:0.85em;
+}
+
 
 .yellow strong {
     color:#ffffff;
