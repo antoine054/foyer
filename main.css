@@ -237,11 +237,28 @@ p span {
 figure.animation {
     margin: 0;
     width: 100%;
+    max-width: 370px;
+}
+
+figure.animation .levitating {
+    animation-name: levitating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+
+figure.animation .ombre {
+    margin-top: 100px;
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
 }
 
 figure.animation.hidden {
     display: none;
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
     margin-top: 25px;
 }
@@ -306,5 +323,31 @@ footer a:last-child {
     }
     100% {
         background: #dd2515;
+    }
+}
+
+
+@keyframes levitating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(80px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes shadow {
+    0% {
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.7);
     }
 }
